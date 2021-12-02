@@ -3,7 +3,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-
+/*
         Cat smallCat = new Cat(1000, "Kuzya", 1, "White");
 
 
@@ -15,8 +15,9 @@ public class Main {
         //изменять МОЖНО
         bigCat.setName("Kuzya");
         System.out.println(bigCat.getName());
-
-
+*/
+Rect rect = new Rect(5,10);
+        System.out.println(rect.getW() * rect.getH() == rect.getS());
 
     }
 }
