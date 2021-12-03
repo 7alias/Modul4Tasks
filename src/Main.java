@@ -7,7 +7,8 @@ public class Main {
     public static void main(String[] args) {
 
         //Task431.sbTest();
-        Task432.task();
+        //Task432.task();
+        Task434.task();
 //        TextCleaner.textClean();
 
 
