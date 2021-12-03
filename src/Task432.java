@@ -9,10 +9,14 @@ public class Task432 {
 
 //Напишите регулярку, которая найдет в строке aba aba a!a abba adca abea строки abba adca abea по шаблону: буква a, 2 любых символа, буква a.
         String text = "aba aba a!a abba adca abea";
-        Pattern pattern = Pattern.compile("a % % a");
-        Matcher matcher = pattern.matcher(text);
-        System.out.println(matcher);
+        Pattern pattern = Pattern.compile("a..a");
 
+        Matcher matcher = pattern.matcher(text);
+        while (matcher.find()) {
+            int start = matcher.start();
+            int end = matcher.end();
+            System.out.println("Found match\n" + text.substring(start, end) + "\nfrom " + start + " to " + (end - 1));
+        }
 
     }
 }
