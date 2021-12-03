@@ -15,7 +15,7 @@ public class Task432 {
         while (matcher.find()) {
             int start = matcher.start();
             int end = matcher.end();
-            System.out.println("Found match\n" + text.substring(start, end) + "\nfrom " + start + " to " + (end - 1));
+            System.out.println(text.substring(start, end));
         }
 
     }

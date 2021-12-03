@@ -6,8 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-Task432.task();
-        //TextCleaner.textClean();
+        //Task431.sbTest();
+        Task432.task();
+//        TextCleaner.textClean();
 
 
 
