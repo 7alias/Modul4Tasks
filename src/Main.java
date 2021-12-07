@@ -9,10 +9,11 @@ public class Main {
         //Task432.task();
         //Task433.task();
         //Task434.task();
-     //   Task435.task();
+        //   Task435.task();
 
         //Task1.task();
-Task2.task();
+        //Task5.task();
+        Task6.task();
 
 //        TextCleaner.textClean();
 
