@@ -13,8 +13,9 @@ public class Main {
 
         //Task1.task();
         //Task5.task();
-        Task6.task();
-
+        //Task6.task();
+        //Task7.task();
+        Task9.task();
 //        TextCleaner.textClean();
 
 
